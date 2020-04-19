@@ -1,26 +1,30 @@
-# Mee6 : The Discord bot
-**DEPRECATED! For support and questions -> http://discord.gg/mee6**
+# hello-express
 
-## What is it?
-Mee6 is a Discord bot that lets you easily add your own commands to your server
-through a user-friendly dashboard. But this is just one of the numerous features 
-of this bot.
+A server that serves a webpage, its resources, and some data
 
-## Testimonials (OMG OMG OMG...)
-![Jason](http://i.imgur.com/sXXQy61.png)
 
-## Mee6 uses and loves
+## Your Project
 
-- [discord.py](https://github.com/Rapptz/discord.py)
-- [discord.ie](https://github.com/qeled/discordie)
-- [aioredis](https://github.com/aio-libs/aioredis)
-- [flask](http://flask.pocoo.org)
-- [Docker](https://www.docker.com/)
+On the front-end,
 
-## How to contribute !
+- Edit `views/index.html` to change the content of the webpage
+- `public/client.js` is the javacript that runs when you load the webpage
+- `public/style.css` is the styles for `views/index.html`
+- Drag in `assets`, like images or music, to add them to your project
 
-If you want to create a plugin for the bot, do not hesitate to contact me in 
-[Mee6's discord server](https://discord.gg/mee6) :wink:.
+On the back-end,
 
-You have to be at least a little bit familiar with **asyncio** python library 
-and with python in general.
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
+
+
+## Made by [Glitch](https://glitch.com/)
+
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
+
+( ᵔ ᴥ ᵔ )
